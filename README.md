@@ -30,12 +30,14 @@ Esse repositório está em construção e depois será renovado com o tema defin
   - Código aberto e documentação para permitir que qualquer pessoa crie sua própria versão de cloud gaming.
 
 ### O que já existe de parecido
+
   - Xbox Cloud Gaming
   - NVIDIA GeForce Now
   - Google Stadia (descontinuado)
   - Frameworks como Unity WebGL, Godot WebAssembly
   
 ### Diferencias do tema
+
   - Foco educacional e open source: qualquer pessoa poderá instalar, modificar e entender um sistema de cloud gaming.
   - Comparação técnica entre execução local e remota.
   - Protótipo funcional que demonstra:
@@ -44,12 +46,19 @@ Esse repositório está em construção e depois será renovado com o tema defin
   - impacto da rede
 
 ## Jogo de Puzzles com Imagens Geradas Dinamicamente por Inteligência Artificial (idealizado pelo professor Andreas Jessé)
+
   Criar um jogo ou aplicativo de puzzles em que todas as imagens usadas nos desafios são geradas por IA, de forma dinâmica e potencialmente em tempo real, garantindo que cada jogador receba enigmas únicos e nunca repetidos.
+
 ### O que seria feito na prática:
+
 (pensar)
+
 ### O que ja existe de parecido:
+
 (pensar)
+
 ### Diferenciais da proposta:
+
   - Conteúdo dinamico;
   - Alta automatização.
   - Tema atual e altamente tecnológico, combinando IA, engines de jogos e design procedural.
@@ -59,8 +68,11 @@ Esse repositório está em construção e depois será renovado com o tema defin
   - variação de dificuldade gerada por IA.
 
 ## Sistema de Versionamento e CI/CD Especializado para Desenvolvimento de Jogos
+
   Criar uma plataforma de versionamento e `CI/CD` voltada especificamente para desenvolvimento de jogos, oferecendo algo que Git/GitHub não atendem bem: entendimento real de cenas, GameObjects e componentes usados em engines como Unity e Godot.
+  
 ### O que seria feito na prática:
+
   - Desenvolver um sistema de versionamento capaz de interpretar arquivos de cena/prefab e mostrar diferenças de forma visual (objetos, componentes, valores alterados);
   - Criar uma dashboard web onde a equipe possa ver o estado do projeto, mudanças, conflitos e responsáveis por cada parte;
   - Implementar uma pipeline CI/CD para jogos, automatizando;
@@ -69,12 +81,16 @@ Esse repositório está em construção e depois será renovado com o tema defin
   - Upload automático para itch.io;
   - Execução de testes básicos do jogo;
   - Criar plugin simples para as engines exibindo o status do versionamento dentro da própria engine.
+  - 
 ### O que ja existe de parecido
+
   - Unity Version Control (PlasticSCM)
   - Perforce Helix
   - Git LFS
   - Pipelines genéricas como GitHub Actions / GitLab CI
+  - 
 ### Diferenciais da minha proposta
+
   - Versionamento realmente interpretado para jogos (GameObjects, componentes, cenas).
   - Visualização clara das mudanças, evitando merges destrutivos.
   - CI/CD totalmente voltado para jogos, com build automatizado e envio para itch.io.
