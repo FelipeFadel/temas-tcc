@@ -1,10 +1,14 @@
 # temas-tcc
+
 Esse repositório está em construção e depois será renovado com o tema definitivo do TCC. Por enquanto ele organiza os possíveis temas para explorar no README. Espero que algum dos temas seja bom hahaah
 
 ## Execução de Jogos no Navegador e na Nuvem: Análise, Comparação e Protótipo Open Source de Cloud Gaming
+
   Investigar como jogos funcionam no navegador usando `WebGL/WebAssembly` e comparar com jogos executados totalmente na nuvem através de cloud gaming (como` Xbox Cloud Gaming` e `GeForce Now`).
   Além da análise, o tema propõe desenvolver um protótipo `open source` que permita a qualquer pessoa montar seu próprio sistema simples de jogos via streaming.
+  
 ### O que seria feito na prática
+
 1. Estudo técnico:
   - Como `WebGL` usa GPU/CPU local;
   - Papel do `WebAssembly` na performance do navegador;
